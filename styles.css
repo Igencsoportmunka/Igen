@@ -7,6 +7,7 @@
 
 *{
     box-sizing: border-box;
+    font-size: 15px;
 }
 
 body, main {
@@ -39,6 +40,18 @@ header {
 
 nav {
     grid-area: _nav;
+    display: flex;
+}
+nav a, nav a:visited {
+    text-decoration: none;
+    color: var(--color-4);
+    padding: 10px;
+    transition: 0.5s;
+    margin: 0;
+}
+nav a:hover, nav a:active {
+    background-color: var(--color-1);
+    color: var(--color-3);
 }
 
 article {
@@ -51,4 +64,6 @@ aside {
 
 footer {
     grid-area: _footer;
+    text-align: center;
+    margin: 10px;
 }

@@ -7,6 +7,9 @@
         <meta name="author" content="Péti Dominik, Milichovszky Sándor">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Szövegelők</title>
+
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <main>
@@ -23,13 +26,13 @@
                     <fieldset> 
                         <legend>Regisztráció</legend>
                         <label for="vnev">Vezeték név:</label><br>
-                        <input type="text" id="vnev" name="vnev" placeholder="Minta"><br>
+                        <input type="text" id="vnev" name="vnev" placeholder="Minta" autocomplete="family-name"><br>
 
                         <label for="knev">Keresztnév:</label><br>
-                        <input type="text" id="knev" name="knev" placeholder="Anita"><br>
+                        <input type="text" id="knev" name="knev" placeholder="Anita" autocomplete="given-name"><br>
 
                         <label for="fnev">Felhasználónév:</label><br>
-                        <input type="text" id="fnev" name="fnev" placeholder="Anita0123145"><br>
+                        <input type="text" id="fnev" name="fnev" placeholder="Anita0123145" autocomplete="nickname"><br>
 
                         <label for="mail">E-mail:</label><br>
                         <input type="email" id="mail" name="mail" placeholder="minta.anita@gmail.com"><br>
