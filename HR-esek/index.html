@@ -6,9 +6,10 @@
         <meta name="keywords" content="">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
+        <title>Tegzes Márton</title>
 
         <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="stiluss.css">
         
     </head>
     <body>
@@ -18,13 +19,37 @@
                 <a href="../index.html">Főoldal</a>
                 <a href="../Szovegelok/index.html">Bejelentkezés</a>
                 <a href="index.html">Adatok megadása</a>
-                <a href="../szerv/index.html">Programok</a>
+                <a href="../szerv/index.html">Szolgáltatások</a>
                 <a href="../penz/index.html">Fizetés</a>
             </nav>
             <article>
-                
+                <form>
+                <div class="urlap">
+                    <div>
+                    <p>Cégnév:</p>                                       
+                    <input type="text" name="Name" placeholder="Cég név" required>
+                    </div>
+                    <div>
+                    <p>Email cím:</p>  
+                    <input type="email" name="email" placeholder="Céges email" required>
+                </div>
+                <div>
+                    <p>Telefonszám:</p>                                         
+                    <input type="text" name="phone" placeholder="Telefonszám" required>
+                    </div>
+                    <div>
+                        <p>Saját üzenetet:</p> 
+                    <textarea name="Message" rows="6" placeholder="Saját Üzenet:"></textarea>  
+                    </div>
+                    <div class="gomb">
+                        <button type="submit">Küldés</button>
+                    </div>
+                </div>
+                </form>   
             </article>
-            <aside></aside>
+            <aside>
+                <img src="informatika.jpg" alt="biztonsag">
+            </aside>
             <footer></footer>
         </main>
     </body>
