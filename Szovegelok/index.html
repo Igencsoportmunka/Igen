@@ -24,18 +24,20 @@
                 <form>
                     <fieldset>
                         <legend>Bejelentkezési adatok</legend>
+                        
                         <label for="mail">E-mail/Felhasználónév:</label>
                         <input type="text" id="mail" name="mail" autocomplete="off">
                         <label for="jelszo">Jelszó:</label>
                         <input type="password" id="jelszo" name="jelszo" autocomplete="current-password">
-                        <input type="checkbox" id="maradokb" name="maradokb">
-                        <label for="maradokb">Bejelentkezve maradok</label>
+                        <div id="keepLogged">
+                            <input type="checkbox" id="maradokb" name="maradokb">
+                            <label for="maradokb">Bejelentkezve maradok</label>
+                        </div>
                         <input type="submit" value="Bejelentkezés">
                         <a href="reg.html">Még nincs fiókja? Regisztráljon!</a>
                     </fieldset>
                 </form> 
             </article>
-            <aside></aside>
             <footer>Péti Dominik | Milichovszky Sándor</footer>
         </main>
     </body>

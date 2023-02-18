@@ -1,5 +1,5 @@
 :root {
-    --color-1: #362FD9;
+    --color-1: #2c4a9c;
     --color-2: #3C84AB;
     --color-3: #85CDFD;
     --color-4: #DEFCF9;
@@ -66,4 +66,5 @@ footer {
     grid-area: _footer;
     text-align: center;
     margin: 10px;
+    color: var(--color-4);
 }
