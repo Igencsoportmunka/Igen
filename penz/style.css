@@ -43,6 +43,8 @@ header {
 nav {
     grid-area: _nav;
     display: flex;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 nav a, nav a:visited {
     text-decoration: none;
@@ -61,6 +63,7 @@ nav a:hover, nav a:active {
     display: flex;
     justify-content: end;
     align-items: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .art2 {
@@ -73,8 +76,10 @@ nav a:hover, nav a:active {
 aside {
     grid-area: _aside;
     position: relative;
-    margin-top: 50px;
+    margin: 50px;
     display: flex;  
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 
 footer {
@@ -85,9 +90,9 @@ footer {
 }
 
 .sskep{
-    width: 500px;
     border: 0px;
     border-radius: 30px;
+    min-width: 500px;
 }
 
 .prev, .next {
@@ -115,13 +120,15 @@ footer {
 }
 
 .text {
-  color: #f2f2f2;
+  color: white;
+  font-weight: 700;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .desc {
@@ -174,6 +181,20 @@ cursor: pointer;
     pointer-events: none;
 }
 
+.outline span.num2{
+    font-size: 16;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
+.outline span.num3{
+    font-size: 16;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
 .kosar{
     height: 60px;
     width: 150px;
@@ -193,6 +214,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 600;
 cursor: pointer;
+text-shadow: none;
 }
 
 .akt{
@@ -214,6 +236,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 600;
 cursor: pointer;
+text-shadow: none;
 }
 
 
@@ -222,4 +245,40 @@ cursor: pointer;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+}
+
+.min{
+    text-shadow: none;
+}
+
+.num{
+    text-shadow: none;
+}
+
+.plu{
+    text-shadow: none;
+}
+
+.min2{
+    text-shadow: none;
+}
+
+.num2{
+    text-shadow: none;
+}
+
+.plu2{
+    text-shadow: none;
+}
+
+.min3{
+    text-shadow: none;
+}
+
+.num3{
+    text-shadow: none;
+}
+
+.plu3{
+    text-shadow: none;
 }

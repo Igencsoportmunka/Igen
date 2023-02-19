@@ -101,9 +101,9 @@ let a3 = 0;
   });
 
 let tv = 0;
-let v1 = 500000;
-let v2 = 1500000 ;
-let v3 = 2000000;
+let v1 = 5000;
+let v2 = 15000;
+let v3 = 20000;
 const kosar = document.querySelector(".kosar");
 const vosszeg = document.querySelector(".vosszeg");
 
