@@ -101,7 +101,9 @@ let a3 = 0;
   });
 
 let tv = 0;
-let v = 500;
+let v1 = 500000;
+let v2 = 1500000 ;
+let v3 = 2000000;
 const kosar = document.querySelector(".kosar");
 const vosszeg = document.querySelector(".vosszeg");
 
@@ -109,23 +111,23 @@ const vosszeg = document.querySelector(".vosszeg");
     if (a > 0){
       if (a2 > 0){
         if(a3 > 0){
-          tv = v * a + v * a2 + v * a3;
+          tv = v1 * a + v2 * a2 + v3 * a3;
         } else {
-          tv = v * a + v * a2;
+          tv = v1 * a + v2 * a2;
         }
       } else if(a3 > 0){
-        tv = v * a + v * a3;
+        tv = v1 * a + v3 * a3;
       } else {
-        tv = v * a 
+        tv = v1 * a 
       }
     } else if(a2 > 0){
       if(a3 > 0){
-        tv = v * a2 + v * a3; 
+        tv = v2 * a2 + v3 * a3; 
       } else {
-        tv = v * a2;
+        tv = v2 * a2;
       }
     } else if (a3 > 0){
-      tv = v * a3;
+      tv = v3 * a3;
     } else {
       tv = 0;
     }
