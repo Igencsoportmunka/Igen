@@ -25,7 +25,8 @@ main {
     grid-template-columns: 3fr 1fr;
     grid-template-areas: "_head _head"
                          "_nav _nav"
-                         "_article _aside"
+                         "_article1 _aside"
+                         "_article2 _article2"
                          "_line _line"
                          "_footer _footer";
 }
@@ -55,8 +56,18 @@ nav a:hover, nav a:active {
     color: var(--color-3);
 }
 
-.article1 {
-    grid-area: _article;
+.art1 {
+    grid-area: _article1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.art2 {
+    grid-area: _article2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 aside {
@@ -130,7 +141,85 @@ footer {
 }
 
 .line{
-    border-top: 3px solid darkgray;
+    border-top: 5px solid darkblue;
     grid-area: _line;
     margin: 50px;
+}
+
+.outline{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    color: black;
+}
+
+.outline span{
+width: 100%;
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.outline span.num{
+    font-size: 16;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
+.kosar{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    color: black;
+}
+
+.kosar span{
+width: 100%;
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.akt{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    color: black;
+}
+
+.akt span{
+width: 100%;
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+}
+
+
+.szamolas{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
