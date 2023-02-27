@@ -43,7 +43,6 @@ header {
 nav {
     grid-area: _nav;
     display: flex;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 }
 nav a, nav a:visited {
@@ -64,7 +63,6 @@ nav a:hover, nav a:active {
     justify-content: end;
     align-items: center;
     margin: 50px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .art2 {
@@ -79,7 +77,6 @@ aside {
     position: relative;
     margin: 50px;
     display: flex;  
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 footer {
@@ -128,7 +125,6 @@ footer {
   bottom: 8px;
   width: 100%;
   text-align: center;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .desc {
@@ -244,42 +240,6 @@ text-shadow: none;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-}
-
-.min{
-    text-shadow: none;
-}
-
-.num{
-    text-shadow: none;
-}
-
-.plu{
-    text-shadow: none;
-}
-
-.min2{
-    text-shadow: none;
-}
-
-.num2{
-    text-shadow: none;
-}
-
-.plu2{
-    text-shadow: none;
-}
-
-.min3{
-    text-shadow: none;
-}
-
-.num3{
-    text-shadow: none;
-}
-
-.plu3{
-    text-shadow: none;
 }
 
 .nothing{
